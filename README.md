@@ -2,7 +2,7 @@
 This project aims to empirically analyze Okun's Law, which suggests an inverse relationship between unemployment and GDP growth, using economic data from the Federal Reserve Economic Data (FRED). Data is collected, transformed, and analyzed to test Okun's Law across different U.S. states.
 
 ### Workflow for Okun's Law analysis using FRED data
-![workflow](../assets/workflow.png)
+![workflow](./assets/workflow.png)
 
 Project Structure
 ```bash
