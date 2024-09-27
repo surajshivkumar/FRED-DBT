@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: fred_data_source # Logical name in dbt
+    schema: public # The actual schema where the raw data is located
+    tables:
+      - name: raw_fred_data # The table name in your PostgreSQL database
