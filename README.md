@@ -46,6 +46,17 @@ Set up config.json with your FRED API key and other configuration settings:
   }
 }
 ```
+#### Create Tables and Schema
+(in this example i use postgres but you can use a database of your choice)
+- Make sure postgres is up and running
+- create a new database named fed
+- Run the file in ./sql/raw_tables/create_tables.py
+- This creates the empty table structure for ingesting raw data into postgres
+Simply run
+```bash
+python create_tables.py
+```
+
 Data Extraction
 Fetching GDP Data:
 
